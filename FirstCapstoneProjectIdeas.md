@@ -3,6 +3,7 @@
 ##### Idea 1 - [Kiva Crowdfunding](https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding)
 
 **Background**
+
 Kiva is an online crowd funding platform to extend financial services to the poor of the world. Kiva lenders have provided over 1 billion dollars in loans to over 2 million people around the globe. In order to set the priorities, help inform lenders and understand their target communities, knowing the level of poverty of each borrower is critical. However this requires inference based on a limited set of information for each borrower.
 
 **Dataset**
