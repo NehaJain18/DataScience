@@ -70,5 +70,6 @@ The dataset has 93 features for more than 200,000 products.
 
 **Problem**
 Due to diverse global infrastructure, many identical products get classified differently. The quality of the analysis of the products depend heavily on the ability to cluster similar products. So the main objective is, to build a model that can distinguish between the main product categories.
+
 ---
 
