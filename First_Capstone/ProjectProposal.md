@@ -18,9 +18,9 @@ The data has been provided by the client. But it is not into the raw form. For 2
   - Make a report mentioning the details about the chosen model and how to apply it to predict product categories for new products.
     
 **Deliverables**
-    - Code for the project well-documented on GitHub. Differnt .ipynb files for Data cleaning, EDA, feature engineering, Model fitting etc. Instructions to run the code to do the predictions for the new product's categories.
-    - Final paper in GitHub explaining the problem, my approach and the findings. Include ideas for further research, as well as up to 3 concrete recommendations on how the client can use the findings. The document should have appropriate title such as Capstone_Project.
-    - Slide deck for the project in GitHub. As a data scientist in a company, there is need to produce and present slide decks. Presentation should have appropriate title.
-    - Share the project by presenting in office hour, online video or blog post.
+  - Code for the project well-documented on GitHub. Differnt .ipynb files for Data cleaning, EDA, feature engineering, Model fitting etc. Instructions to run the code to do the predictions for the new product's categories.
+  - Final paper in GitHub explaining the problem, my approach and the findings. Include ideas for further research, as well as up to 3 concrete recommendations on how the client can use the findings. The document should have appropriate title such as Capstone_Project.
+  - Slide deck for the project in GitHub. As a data scientist in a company, there is need to produce and present slide decks. Presentation should have appropriate title.
+  - Share the project by presenting in office hour, online video or blog post.
     
     
