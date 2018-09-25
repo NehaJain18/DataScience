@@ -25,6 +25,8 @@
 *.log
 *.sql
 *.sqlite
+*.csv
+*.json
 
 # OS generated files #
 ######################
@@ -41,6 +43,8 @@ First_Capstone/try-out
 First_Capstone/data
 First_Capstone/ml-modeling/Other Work
 First_Capstone/models-repo
+Relax_Challenge/others/
+Naive_Bayes/others/
 *.ipynb_checkpoints
 **/.ipynb_checkpoints
 **/.ipynb_checkpoints/*
