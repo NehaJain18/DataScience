@@ -43,5 +43,3 @@ These files contain metadata for all 45,000 movies listed in the Full MovieLens 
 **Problem**
 
 Building Content Based and Collaborative Filtering Based Recommendation Engines.
----
-
