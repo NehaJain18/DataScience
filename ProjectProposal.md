@@ -18,7 +18,7 @@ The data has been provided by the client (through Kaggle). Each row in the datas
   - socialEngagementType - Engagement type, either "Socially Engaged" or "Not Socially Engaged".
   - totals - This section contains aggregate values across the session.
   - trafficSource - This section contains information about the Traffic Source from which the session originated.
-  - visitId - An identifier for this session. This is part of the value usually stored as the _utmb cookie. This is only unique to the user. For a completely unique ID, you should use a combination of fullVisitorId and visitId.
+  - visitId - An identifier for this session. This is part of the value usually stored as the _utmb cookie. This is only unique to the user. For a completely unique ID, you should use a combination of fullVisitorId and visitId. The cookies named __utma through __utmz are stored by websites that choose to use Google Analytics to see how people visit their websites.
   - visitNumber - The session number for this user. If this is the first session, then this is set to 1.
   - visitStartTime - The timestamp (expressed as POSIX time).
 
