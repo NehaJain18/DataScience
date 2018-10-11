@@ -8,7 +8,19 @@ The client here is the Google Merchandise Store or GStore where Google swag is s
 Given the session details of various visits to the GStore, predict the total revenue for visitorId (representing customer). Either one or many of visits of a customer can generate revenue, so the goal is predict the total of all those revenues.
 
 **Data**
-The data has been provided by the client. But it is not into the raw form. For 200,000 products, 93 features are provided. The meaning or actual name of the features is hidden and only the numerical values are given. The idea is to learn from these features for the existing products and the categories they belong and be able to classify new products into the given categories.
+The data has been provided by the client (through Kaggle). Each row in the dataset is one visit to the store. There are multiple columns which contain JSON blobs of varying depth. In one of those JSON columns, totals, the sub-column transactionRevenue contains the revenue information we are trying to predict. The raw data has 904K rows and 12 columns. Here are the various data fields:
+  - fullVisitorId - A unique identifier for each user of the Google Merchandise Store.
+  - channelGrouping - The channel via which the user came to the Store.
+  - date - The date on which the user visited the Store.
+  - device - The specifications for the device used to access the Store.
+  - geoNetwork - This section contains information about the geography of the user.
+  - sessionId - A unique identifier for this visit to the store.
+  - socialEngagementType - Engagement type, either "Socially Engaged" or "Not Socially Engaged".
+  - totals - This section contains aggregate values across the session.
+  - trafficSource - This section contains information about the Traffic Source from which the session originated.
+  - visitId - An identifier for this session. This is part of the value usually stored as the _utmb cookie. This is only unique to the user. For a completely unique ID, you should use a combination of fullVisitorId and visitId.
+  - visitNumber - The session number for this user. If this is the first session, then this is set to 1.
+  - visitStartTime - The timestamp (expressed as POSIX time).
 
 **Solution Approach**
   - Understand the given data thoroughly. What type of files and data are given. What format the final solution should be.
