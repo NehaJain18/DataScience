@@ -24,14 +24,16 @@ The data has been provided by the client (through Kaggle). Each row in the datas
 
 **Solution Approach**
   - Understand the given data thoroughly. What type of files and data are given. What format the final solution should be.
-  - Data cleaning. Resolve missing values. Transfrom data into required format if needed.
-  - Exploratory data analysis. Visualize the data in different forms to get insights into.
-  - Feature engineering. Data modeling. Derive new features if needed. Normalize feature if needed.
-  - Try to fit different Classification algorithms like Logistic Regression, SVMs or Neural networks. Learn how these algorithms compare. Find the best model and use it for final predictions. While fitting the models keep in mind the cross validation methods to find best hyper parameters for the chosen algorithm.
-  - Make a report mentioning the details about the chosen model and how to apply it to predict product categories for new products.
+  - Data cleaning. Resolve missing values. Transfrom data into required format (numbers) if needed. Extract columns out of json blobs. Delete unnecessary columns. 
+  - Exploratory data analysis. Visualize the data in different forms to get insights into. Find out relations between target and each data column.
+  - Feature engineering. Data modeling. Derive new features if needed. Normalize features if needed. Try out feature crosses.
+  - Try to fit different Regression algorithms like Linear Regression, SVMs, KNNs or Neural networks. Learn how these algorithms compare. Find the best model and use it for final predictions. While fitting the models keep in mind the cross validation methods to find best hyper parameters for the chosen algorithm.
+  - Apply deep learning and time forecasting techniques, if enough time.
+  - Try out tensor flow as platform for machine learning. Utilize GCP for compute engines etc.
+  - Make a report mentioning the details about the chosen model and how to apply it to predict revenue from customers.
     
 **Deliverables**
-  - Code for the project well-documented on GitHub. Differnt .ipynb files for Data cleaning, EDA, feature engineering, Model fitting etc. Instructions to run the code to do the predictions for the new product's categories.
+  - Code for the project well-documented on GitHub. Differnt .ipynb files for Data cleaning, EDA, feature engineering, Model fitting etc. Instructions to run the code to do the predictions for the new visiterId (customer).
   - Final paper in GitHub explaining the problem, my approach and the findings. Include ideas for further research, as well as up to 3 concrete recommendations on how the client can use the findings. The document should have appropriate title such as Capstone_Project.
   - Slide deck for the project in GitHub. As a data scientist in a company, there is need to produce and present slide decks. Presentation should have appropriate title.
   - Share the project by presenting in office hour, online video or blog post.
