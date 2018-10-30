@@ -43,8 +43,11 @@ First_Capstone/try-out
 First_Capstone/data
 First_Capstone/ml-modeling/Other Work
 First_Capstone/models-repo
+First_capstone/backup
 Relax_Challenge/others/
 Naive_Bayes/others/
+Second_Capstone/try-out
+Second_Capstone/data
 *.ipynb_checkpoints
 **/.ipynb_checkpoints
 **/.ipynb_checkpoints/*
