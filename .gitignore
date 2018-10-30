@@ -39,15 +39,13 @@ ehthumbs.db
 Thumbs.db
 
 # Specific to this project #
-First_Capstone/try-out
-First_Capstone/data
-First_Capstone/ml-modeling/Other Work
-First_Capstone/models-repo
-First_capstone/backup
+*Capstone*/try-out
+*Capstone*/data
+*Capstone*/ml-modeling/Other Work
+*Capstone*/models-repo
+*Capstone*/backup
 Relax_Challenge/others/
 Naive_Bayes/others/
-Second_Capstone/try-out
-Second_Capstone/data
 *.ipynb_checkpoints
 **/.ipynb_checkpoints
 **/.ipynb_checkpoints/*
