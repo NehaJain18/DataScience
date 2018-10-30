@@ -16,4 +16,9 @@ To understand the whole data science process these links can be followed in orde
 
 [ML modeling](https://github.com/NehaJain18/DataScience/blob/master/First_Capstone/ml-modeling/modeling_main.ipynb)
 
-[Final Report](https://github.com/NehaJain18/DataScience/blob/master/First_Capstone/report/FinalReport.ipynb)
+[Final Report - Jupyter Notebook](https://github.com/NehaJain18/DataScience/blob/master/First_Capstone/report/FinalReport.ipynb)
+
+[Final Report - PDF](https://github.com/NehaJain18/DataScience/blob/master/First_Capstone/report/FinalReport.pdf)
+
+[Final Report - Slide Deck](https://github.com/NehaJain18/DataScience/blob/master/First_Capstone/report/First_Capstone.key)
+
