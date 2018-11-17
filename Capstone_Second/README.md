@@ -18,11 +18,11 @@ To understand the whole data science process these links can be followed in orde
 
 Final Report (different formats):
 
-  [Jupyter Notebook](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;[Jupyter Notebook](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.ipynb)
 
-  [PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;[PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.pdf)
 
-  [HTML (download and read)](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.html)
+&nbsp;&nbsp;&nbsp;&nbsp;[HTML (download and read)](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.html)
 
 Presentation (different formats):
 
