@@ -20,6 +20,8 @@ To understand the whole data science process these links can be followed in orde
 
 [Final Report - PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.pdf)
 
+[Final Report - HTML (easy read)](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/FinalReport.html)
+
 [Presentation - keynote](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.key)
 
 [Presentation - PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.pdf)
