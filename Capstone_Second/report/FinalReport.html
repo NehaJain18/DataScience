@@ -12217,7 +12217,8 @@ trafficSource.adwordsClickInfo.gclId         : 17774          : 882092
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a id='section20'></a></p>
+<p><br>
+<a id='section20'></a></p>
 <h1 id="Modeling">Modeling<a class="anchor-link" href="#Modeling">&#182;</a></h1>
 </div>
 </div>
@@ -12347,7 +12348,7 @@ The RMSE of <strong>1.756</strong> is better than our previous RMSEs. The charts
 <div class="row" width="100%">
   <div class="column"><img src="../images/act-pred3.png" width="50%" align="left"></div>
   <div class="column"><img src="../images/resid3.png" width="50%" ></div>
-</div><p><br>
+</div><p><br><br>
 Feature importance as per the model. This is useful if want to make model more interpretable and reduce less useful featutes.</p>
 <p><br></p>
 <div class="row"><img src="../images/feature-imp.png" width="875" align="left"></div>
@@ -12376,8 +12377,20 @@ Feature importance as per the model. This is useful if want to make model more i
 <li><strong>active_hours</strong> - As seen during the EDA that morning hours are generally low on revenue transactions. This makes sense because people are generally busy getting ready for the work day ahead.</li>
 </ul>
 <p><a id='section31'></a></p>
-<h2 id="Modeling-using-new-Features">Modeling using new Features<a class="anchor-link" href="#Modeling-using-new-Features">&#182;</a></h2><p>TBD</p>
+<h2 id="Modeling-using-new-Features">Modeling using new Features<a class="anchor-link" href="#Modeling-using-new-Features">&#182;</a></h2><p>Even after adding the new features the models didn't improve much. We didn't try XGB and Random Forest as we don't have enough resources to use full dataset for them. Neither can we try hyperparameter tuning on them. The results for Decision Tree and LightGBM remains the same.</p>
+<p>We also tried Artificial Neural Nets. In case of huge data sets, ANNs generally work good. An ANN consists of artificial neurons called nodes that accept inputs, processes it to generate the output. A neural network generally consists of 3 layers:</p>
+<ul>
+<li>Input Layer: This layer is responsible to accepts large volumes of inputs in various formats like text, numbers, image pixels, audio, etc.</li>
+<li>Hidden Layers: This layer is responsible to perform data manipulation, mathematical calculation, feature extraction, etc.</li>
+<li>Output Layer: This layer generates the desired output based on the information it receives from the previous layers.</li>
+</ul>
+<div class="row"><img src="../images/nns.png" width="500" align="left"></div>
+<br>
 
+But they need longer run times. Training with new features took around 3mins.  Also, NNs need lot of paramter tuning, which is not feasible for this project. So for future trials we will only use Light GBM. Here is our ANN model summary:
+
+<div class="row"><img src="../images/nn-summary.png" width="500" align="left"></div><p>The results are worse than that of Light GBM. The test rmse is <strong>1.85</strong>. And here is the glimpse of training:</p>
+<div class="row"><img src="../images/nn-training.png" width="700" align="left"></div>
 </div>
 </div>
 </div>
@@ -12386,7 +12399,8 @@ Feature importance as per the model. This is useful if want to make model more i
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id='section32'></a></p>
-<h1 id="Model-Comparisons">Model Comparisons<a class="anchor-link" href="#Model-Comparisons">&#182;</a></h1><p><br></p>
+<h1 id="Model-Comparisons">Model Comparisons<a class="anchor-link" href="#Model-Comparisons">&#182;</a></h1><p>Light GBM performed the best, both in terms of accuracy and lower RMSE and the training speed. There is lot of scope for further feature engineering and parameter tuning. Hopefully that will give better results.</p>
+<p><br></p>
 <div class="row"><img src="../images/results.png" width="875" align="left"></div>
 </div>
 </div>
