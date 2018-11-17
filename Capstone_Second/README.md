@@ -26,7 +26,7 @@ Final Report (different formats):
 
 Presentation (different formats):
 
-[Presentation - keynote](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.key)
+&nbsp;&nbsp;&nbsp;&nbsp;[Presentation - keynote](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.key)
 
-[Presentation - PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp;[Presentation - PDF](https://github.com/NehaJain18/DataScience/blob/master/Capstone_Second/report/Second_Capstone.pdf)
 
