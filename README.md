@@ -5,8 +5,10 @@ This repository contains all the assignments and the capstone projects for the S
 [First Capstone Project](https://github.com/NehaJain18/DataScience/tree/master/Capstone_First)
 - Full data science lifecycle capstone project - Product classification for an eCommerce company.
 
+
 [Second Capstone Project](https://github.com/NehaJain18/DataScience/tree/master/Capstone_Second)
 - Full data science lifecycle capstone project - Customer Revenue prediction for an eStore.
+
 
 [JSON](https://github.com/NehaJain18/DataScience/tree/master/JSON_Based_Data_Excercises)
 - Working with JSON data files and answering questions like top 10 countries with most projects or top 10 project themes.
